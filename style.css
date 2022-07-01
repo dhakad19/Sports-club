@@ -1,0 +1,88 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: rgb(43, 40, 40);
+    padding: 10px 10px;
+    
+}
+body{
+    opacity: 0.8;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(sport1.jpg);
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    list-style: none;
+    padding: 6px 8px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container{
+    margin: 12px auto;
+    max-width: 50%;
+}
+.container1{
+    margin: 12px auto;
+    
+}
+input, textarea{
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+h1{
+    background-color: yellow;
+    text-align: center;
+}
+.btn{
+    margin: 20px auto;
+    display: block;
+    padding: 10px 30px;
+    background: rgb(33, 33, 36);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: black 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.h{
+    font-size:50px;
+    background-color: yellow;
+    margin: 30px auto;
+    width: 40%;
+    font-weight: bold;
+
+
+}
+.abt{
+    display: block;
+    border: 7px solid black;
+    border-radius: 10px;
+    width: 40%;
+    margin: 30px auto;
+    background-color: yellow;
+}
+.greet{
+    background-color: yellow;
+    text-align: center;
+}
